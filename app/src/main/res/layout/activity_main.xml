@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.bettyann.MainActivity">
+
+        <ImageView
+            android:id="@+id/dove_picture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/dove_title"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/dove"/>
+
+        <TextView
+            android:id="@+id/dove_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:text="Welcome to AWhiteDove!!"
+            android:textColor="#F48FB1"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/dove_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dove_picture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="serif"
+            android:gravity="center_horizontal"
+            android:text="BETTY ANN SALIERNO\nawhitedove.org\n49 Derwent Ave\nVerona, NJ  07044\n973-698-4612\nbettyann@awhitedove.org "
+            android:textColor="#F48FB1"
+            android:textSize="16sp"/>
+
+        <View
+            android:id="@+id/rule"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/dove_address"
+            android:layout_marginTop="16dp"
+            android:background="#F48FB1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rule">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:scrollIndicators="right"
+                android:text="Psychic Parties\nCorporate Parties\nHoliday Parties\nLadies Night Out\nBridal Showers\nAnniversaries\nGolf Outings\nBirthday Parties\nFund Raising Events\n\nIndividual Readings:\nIn Person - $40.00\nTelephone - $40.00\nInternet - $40.00\nBased on 1/2 hour sessions\n\nTo make an appointment either email me @ Bettyann@awhitedove.org or call 973-698-4612."
+
+                android:textColor="#F48FB1"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#F48FB1"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Call me psychic, intuitive, advisor, or any other label, but many feel that I am simply a genuinely caring person who follows my mission; a mission that originated in hope during the most trying circumstances in my life."
+                android:textColor="#F48FB1"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
